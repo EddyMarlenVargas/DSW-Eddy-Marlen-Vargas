@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Diseño de sitios web</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li>
+                <a href="/DSW-Eddy-Marlen-Vargas/">Inicio</a>
+            </li>
+            <li>
+                <a href="">Temas</a>
+                <ul>
+                    <li><a href="">Tema 1</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Tema 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Recursos Digitales</a>
+                <ul>
+                    <li><a href="">Recurso 1</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Aprendizaje</a>
+                <ul>
+                    <li><a href="">Actividad 1</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Actividad 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Acerca de</a>
+                <ul>
+                    <li><a href="">Autor</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <hr>
+        <section>
+            <h2>Etiquetas semánticas</h2>
+            <p>
+                En este artículo podemos conocer que son las etiquetas semanticas, algunas de sus caracteristicas y como nos ayudan en la creación de un programa.
+            </p>
+        </section>
+    </div>
+
+    <div>
+        <article>
+            <img src="./etiquetassemanticas.png" alt="">
+            <h1>Etiquetas semanticas</h1>
+            <ul>
+                <li>Que son etiquetas semanticas</li>
+                <li>Etiquetas semanticas estructurales</li>
+                <li>Las etiquetas no definen un estilo</li>
+                <li>Por que utilizarlas</li>
+                <li>Conclusiones</li>
+            </ul>
+
+            <hr>
+            <h2>Referencias bibligraficas</h2>
+            <ul>
+                <li><a href="https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html</a></li>
+            </ul>
+        </article>
+    </div>
+
+    <hr>
+    <h1>Mockup</h1>
+    <img src="./Mockup.png" alt="">
+    <hr>
+    <footer>
+        <p>Email: <a href="mailto:evargas_123@hotmail.com</a></p>
+        <p>Sky: evargas_123@hotmail.com</p>
+        <p>Última actualización: 26/09/2022</p>
+        <p>Versión: 1.0.0.0</p>
+    </footer>
+</body>
+
+</html>
