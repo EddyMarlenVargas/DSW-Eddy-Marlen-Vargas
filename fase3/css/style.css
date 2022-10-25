@@ -1,0 +1,54 @@
+body {
+    color: rgb(78, 19, 173);
+}
+
+.encabezado {
+    background-color: #256d67;
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navegacion {
+    background-color: #77945f !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 20px;
+}
+
+.contenedor {
+    /* background-color: red; */
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.principal {
+    background-color: #ec97c6;
+    padding: 30px;
+    grid-column: 2/4;
+}
+
+.lateralDer {
+    background-color: #cdfeac;
+    padding: 30px;
+    grid-column: 1/2;
+}
+
+.lateralIzq {
+    background-color: #feacd2;
+    padding: 30px;
+    grid-column: 4/5;
+}
+
+.pie {
+    background-color: #5d6d25;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.alinear {
+    text-align: justify;
+}
