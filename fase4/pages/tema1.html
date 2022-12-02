@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img width="20%" src="../img/ETIQUETAS SEMANTICAS.jpg" class="rounded mx-auto d-block" alt="HTML5">
+        <h1>Diseño de sitios web</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navegacion">
+        <a class="navbar-brand" href="#">Design</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Temas
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="tema1.html">Tema 1</a>
+                        <a class="dropdown-item" href="tema2.html">Tema 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Recursos Digitales
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="recurso1.html">Recurso 1</a>
+                        <a class="dropdown-item" href="recurso2.html">Recurso 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Aprendizaje
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
+                        <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Acerca de
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="autor.html">Autor</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenedor">
+        <aside class="lateralDer">
+            <!-- https://colorhunt.co/ -->
+            <!-- https://publish.twitter.com/ -->
+            <a class="twitter-timeline" data-height="650" href="https://twitter.com/Mineducacion?ref_src=twsrc%5Etfw">Tweets by Mineducacion</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+        <section class="principal">
+            <article>
+                <h1>Etiquetas semanticas</h1>
+                <p class="alinear">
+                    Este tipo de etiquetas del lenguaje HTML son aquellas que dan un significado a las partes del documento.
+
+                 Las etiquetas semánticas indican qué es el contenido que contienen, en lugar de cómo se debe formatear al mostrar el documento HTML. Estas 
+                  etiquetas, tienen importancia en el marco del HTML y de la composición de un documento web para ayudar a los motores de búsqueda como Google a indexar más correctamente los contenidos de un sitio.
+                </p>
+                <br>
+                <hr>
+            </article>
+            <article>
+                <h2>Estilos de las etiquetas</h2>
+                <p class="alinear">
+                    Las etiquetas semánticas no tienen un estilo predeterminado que el navegador nos vaya a asignar. Es decir, porque HEADER signifique que es una cabecera, el navegador no va en ningún caso a posicionar el elemento en la parte de arriba del documento. Lo mismo con FOOTER, 
+                    que no lo colocará en la parte de abajo, o ASIDE al lateral.
+                     Nosotros mediante CSS, debemos asignar los estilos que queramos se aplique a cada uno de esos elementos del documento HTML.
+                </p>
+                <p class="alinear">
+                    ul de «unordered list» –lista no ordenada . crea una lista no ordenada. Sus etiquetas son: <ul> y </ul> (ambas obligatorias). Está definido como: Elemento para listas. Crea una caja: En bloque. Puede contener: Uno o más elementos li.
+                    li del ingles item list o elemento de lista declara cada uno de los elementos de una lista. Sus etiquetas son: <li> y </li>. Crea una caja: en bloque. Puede contener: cero o más elementos en bloque o en en linea.
+                  a  Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.  Ejemplo:   <a
+                </p>
+                <p class="alinear">
+                    Dentro del etiquetado semántico también tenemos varias funciones, pero las principales y elementales son las que sirven para definir el esquema principal del documento, como HEADER, ARTICLE, FOOTER, etc.  Generalmente, en cualquier documento tenemos una cabecera, un cuerpo y un pie de página, elementos que definen la estructura. Todas esas etiquetas semánticas nos indican qué es
+                     el contenido que engloban y cuál es su relación con el conjunto de elementos del documento HTML.
+                </p>
+                <hr>
+            </article>
+            <article>
+                <h2>Referencias bibligraficas</h2>
+                <ul>
+                    <li><a href="http://www.catedraocampo.com.ar"></a></li>
+                </ul>
+            </article>
+        </section>
+        <aside class="lateralIzq">
+            <a class="twitter-timeline" data-height="650" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer class="pie">
+        <p>Email: evargas_123@hotmail.com</p>
+        <p>Skype: evargas_123</p>
+        <p>Última actualización: 24/10/2022</p>
+        <p>Versión: 2.0.0.0</p>
+    </footer>
+</body>
+
+</html>
